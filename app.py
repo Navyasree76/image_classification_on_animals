@@ -22,7 +22,7 @@ class_labels = {
 }
 
 # Specify the path to your custom model
-model_path = mobilenet_v2.h5  # Replace with the actual path to your model file
+model_path = "mobilenet_v2.h5"  # Replace with the actual path to your model file
 
 # Load the custom model
 model = MobileNetV2(weights=None)
